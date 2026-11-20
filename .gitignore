@@ -1,0 +1,36 @@
+# .NET Backend
+**/bin/
+**/obj/
+*.user
+*.suo
+
+# React Frontend
+**/node_modules/
+**/dist/
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Local Configuration
+appsettings.Local.json
+
+# IDE
+.vscode/
+.idea/
+.vs/
+
+# Logs
+*.log
+
+# Operating System
+.DS_Store
+Thumbs.db
